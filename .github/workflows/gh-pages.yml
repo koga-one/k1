@@ -22,7 +22,6 @@ jobs:
       - name: Build and Export Page
         run: |
           npm run build
-          npm run export
           touch ./out/.nojekyll
 
       - name: Deploy
