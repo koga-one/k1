@@ -3,11 +3,11 @@ import { links } from "./header.json";
 
 export default function Header() {
   return (
-    <header className="flex p-3 justify-around uppercase font-semibold text-2xl">
+    <header className="flex p-3 justify-around uppercase font-thin text-lg">
       {links.map((link) => {
         return (
           <Link
-            className="hover:text-red-500 text-black transition-colors"
+            className="border-b-2 border-slate-800 transition-colors hover:border-blue-200 px-1"
             href={link.href}
           >
             {link.title}

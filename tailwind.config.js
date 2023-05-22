@@ -10,8 +10,8 @@ module.exports = {
       fontSize: {},
     },
     fontFamily: {
-      mono: "Feature Mono",
-      sans: "Nohemi",
+      sans: "JetBrains Mono",
+      serif: "TT Ricordi Trial Nobili",
     },
   },
   plugins: [],

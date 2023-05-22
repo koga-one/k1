@@ -5,12 +5,12 @@
       "href": "/"
     },
     {
-      "title": "test",
-      "href": "/test"
+      "title": "resume",
+      "href": "/resume"
     },
     {
-      "title": "contact",
-      "href": "/contact"
+      "title": "my work",
+      "href": "/work"
     }
   ]
 }
