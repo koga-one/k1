@@ -1,20 +1,20 @@
+import Header from "@/components/Header";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <div className="py-20" />
-      <p className="text-[15.5vw] leading-[1.1em] text-center whitespace-nowrap font-semibold">
-        ANDRÉ KOGA
-      </p>
-      <div className="relative w-full h-[70vh]">
-        <Image
-          src={"/images/dummy.jpg"}
-          alt="Hot guy"
-          fill={true}
-          className="object-cover object-top"
-        />
-      </div>
+      <section className="grid grid-cols-1 items-center grid-rows-3 h-screen">
+        <Header />
+        <p className="text-[28vmin] text-blue-200 uppercase tracking-[-0.1em] leading-[0.75em] text-center font-serif whitespace-nowrap">
+          André
+          <br />
+          Koga
+        </p>
+        <div className="text-center uppercase text-2xl font-thin">
+          bridging technology and art since 2002
+        </div>
+      </section>
     </main>
   );
 }
